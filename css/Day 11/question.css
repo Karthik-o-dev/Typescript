@@ -1,0 +1,26 @@
+*{
+    background-color: black;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: 100vh;
+    gap: 10px;
+    
+}
+
+.child1{
+    background-color: aquamarine;
+    grid-column: 1;
+}
+
+.child2{
+    background-color: aquamarine;
+    grid-column: 2;
+}
+
+.child3{
+    background-color: aquamarine;
+    grid-column: 3;
+}

@@ -1,0 +1,210 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+
+    background:linear-gradient(
+        to bottom,
+        #4254f4 0%,
+        #4254f4 50%,
+        #d9e2ff 50%,
+        #d9e2ff 100%
+    );
+
+}
+
+.container{
+
+    width:900px;
+    height:520px;
+    background:#fff;
+    display:flex;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+
+}
+
+/* Left */
+
+.login-box{
+
+    width:50%;
+    padding:60px 50px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+
+}
+
+.login-box h2{
+
+    text-align:center;
+    margin-bottom:35px;
+    color:#222;
+
+}
+
+.input-box{
+
+    margin-bottom:20px;
+    position:relative;
+
+}
+
+.input-box input{
+
+    width:100%;
+    padding:14px;
+    border:none;
+    background:#f4f4f4;
+    border-radius:8px;
+    outline:none;
+
+}
+
+.input-box a{
+
+    position:absolute;
+    right:10px;
+    top:16px;
+    font-size:12px;
+    color:#4254f4;
+    text-decoration:none;
+
+}
+
+.options{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:30px;
+    font-size:14px;
+
+}
+
+button{
+
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:8px;
+    background:#4254f4;
+    color:#fff;
+    cursor:pointer;
+    font-size:16px;
+    transition:.3s;
+
+}
+
+button:hover{
+
+    background:#2839db;
+
+}
+
+.signup{
+
+    text-align:center;
+    margin-top:40px;
+    font-size:14px;
+
+}
+
+.signup a{
+
+    text-decoration:none;
+    color:#4254f4;
+    font-weight:bold;
+
+}
+
+/* Right */
+
+.image-box{
+
+    width:50%;
+    background:#f7f7f7;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:40px;
+
+}
+
+.image-box img{
+
+    width:250px;
+    margin-bottom:25px;
+
+}
+
+.image-box h3{
+
+    margin-bottom:10px;
+    color:#222;
+
+}
+
+.image-box p{
+
+    text-align:center;
+    color:#777;
+    line-height:1.6;
+    font-size:14px;
+
+}
+
+.dots{
+
+    margin-top:25px;
+
+}
+
+.dots span{
+
+    display:inline-block;
+    width:12px;
+    height:12px;
+    background:#ccc;
+    border-radius:50%;
+    margin:0 5px;
+
+}
+
+.dots .active{
+
+    background:#4254f4;
+
+}
+
+/* Responsive */
+
+@media(max-width:900px){
+
+.container{
+
+    width:95%;
+    flex-direction:column;
+    height:auto;
+
+}
+
+.login-box,
+.image-box{
+
+    width:100%;
+}
+
+}

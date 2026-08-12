@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loading_1, .loading_2{
+    height: 80px;
+    width: 80px;
+    border: 5px dotted black;
+    border-inline-color: transparent;
+    border-radius: 100px;
+
+    animation: rotate 2s linear infinite;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading_2{
+    height: 60px;
+    width: 60px;
+    animation: rotate 1200s linear infinite;
+}
+
+@keyframes rotate {
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+    
+}

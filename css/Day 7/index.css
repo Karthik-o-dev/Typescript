@@ -1,0 +1,22 @@
+body {
+    /* background-image: url(https://wallpaperaccess.com/full/1996221.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   height: 100vh; */
+    background-image: linear-gradient(to left bottom, violet, indigo, yellow);
+    height: 100vh;
+
+
+}
+
+.btn {
+    font-size: 50px;
+    font-family: "Lato", sans-serif;
+    border-radius: 100px;
+    border: none;
+    padding: 20px;
+    box-shadow: 22px 22px 100px;
+}
+
+.btn:hover {}

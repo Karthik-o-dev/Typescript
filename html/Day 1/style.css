@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.container{
+    padding-inline: 80px;
+    border: 3px solid black;
+    margin-inline: 200px;
+    margin-block: 50px;
+    /* background-image: linear-gradient(violet, indigo,rgb(136, 136, 228),yellow); */
+    font-family: "Lato", sans-serif;
+    padding-block: 50px;
+    border-radius: 10px;
+}
+
+h2{
+    border-left: 3px solid;
+    padding-left: 5px;
+}
+.p2{
+    padding-left: 15px;
+}
+
+.name{
+    text-align: center;
+    border-bottom: 2px solid;
+}
+.p1{
+    font-weight: bolder;
+}
+.about{
+    border-bottom: 2px solid;
+}
+.skill{
+    border-bottom: 2px solid;
+}
+.projects{
+    border-bottom: 2px solid;
+}
+
+.education{
+    border-bottom: 2px solid;
+}
+
+.certification{
+    border-bottom: 2px solid;
+}
+
+
+a{
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.edu{
+    display: inline;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+

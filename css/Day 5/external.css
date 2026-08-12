@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ+Guides&display=swap');
+body{
+            background-color: rgb(136, 172, 181);
+            
+        }
+        #dma{
+            color: rgb(133, 11, 11);
+            font-family: 'Playwrite NZ Guides', sans-serif;
+            
+        }
+        .form{
+            background-color: rgb(236, 198, 171);
+            border: 2px solid white;
+        }
+        .form-label{
+            color: rgb(0, 0, 0);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .form-input{
+            color: rgb(21, 15, 209);
+            
+            border: 2px solid rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: italic;
+
+
+        }

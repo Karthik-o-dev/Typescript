@@ -1,0 +1,21 @@
+.box_1, .box_2, .box_3{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.box_1{
+    background-color: red;
+    z-index: 1;
+}
+
+.box_2{
+    background-color: green;
+    left: 30px;
+    top: 30px;
+}
+.box_3{
+    background-color: blue;
+    left: 60px;
+    top: 60px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="external.css">
+   
+</head>
+<body>
+    <center>
+        <h1 id="dma">User Personal Information</h1>
+        <form class="form" action="" method="get">
+            <label class="form-label" for="name">Enter your full name:</label>
+            <input class="form-input" type="text" id="name" name="name" placeholder="Neymar jr" required>
+            <br><br>
+            <label class="form-label" for="email">Enter your email:</label>
+            <input class="form-input" type="email" id="email" name="email" placeholder="neymar@example.com" required>
+            <br><br>
+            <label class="form-label" for="password">Enter your password:</label>
+            <input class="form-input" type="password" id="password" name="password" required>
+            <br><br>
+            <label class="form-label" for="password_confirm">Confirm your password:</label>
+            <input class="form-input" type="password" id="password_confirm" name="password_confirm" required>
+            <br><br>
+            <label class="form-label" for="gender">Enter your gender:</label>
+            <input class="form-input" type="radio" id="gender" name="gender" value="male">
+            <label class="form-label" for="gender">Male</label>
+            <input class="form-input" type="radio" id="gender" name="gender" value="female">
+            <label class="form-label" for="gender">Female</label>
+            <input class="form-input" type="radio" id="gender" name="gender" value="other">
+            <label class="form-label" for="gender">Others</label>
+            <br><br>
+            <label class="form-label" for="dob">Enter your date of birth:</label>
+            <input class="form-input" type="date" id="dob" name="dob" required>
+            <br><br>
+            <label class="form-label" for="address">Enter your address:</label>
+            <textarea class="form-input" id="address" name="address" placeholder="Enter your address"></textarea>
+            <br><br>
+            <input class="form-input" type="reset" value="Reset">
+            <input class="form-input" type="submit" value="Submit">
+        </form>
+    </center>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            grid-template-rows: repeat(8, 1fr);
+            height: 100vh;
+            gap: 5px;
+        }
+        .child1{
+            background-color: aqua;
+            grid-column: 1/5;
+            grid-row: 1/9;
+        }
+        .child2{
+            background-color: blanchedalmond;
+            grid-column: 5/11;
+            grid-row: 1/5;
+        }
+        .child3{
+            background-color: rgb(14, 172, 117);
+            grid-column: 5/8;
+            grid-row: 5/7;
+        }
+        .child4{
+            background-color: rgb(32, 139, 210);
+            grid-column: 5/8;
+            grid-row: 7/9;
+        }
+        .child5{
+            background-color: rgb(220, 214, 34);
+            grid-column: 8/11;
+            grid-row: 5/9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child1"></div>
+        <div class="child2"></div>
+        <div class="child3"></div>
+        <div class="child4"></div>
+        <div class="child5"></div>
+    </div>
+</body>
+</html>

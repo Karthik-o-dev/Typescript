@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+
+    /* animation: ; */
+    /* animation-name: move;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    /* animation-iteration-count: infinite; */
+    position: relative;
+    animation: move 10s linear infinite;
+
+}
+
+@keyframes move {
+        /* from{
+            background-color: black;
+            left: 0;
+            rotate: 0deg;
+            border-radius: 0;
+        }
+
+        to{
+            background-color: aqua;
+            left: 900px;
+            rotate: 360deg;
+            border-radius: 100px;
+
+        } */
+         0%, 100%{
+            top: 0;
+            left: 0;
+            background-color: black;
+         }
+         25%{
+            top: 0;
+            left: 500px;
+            background-color: aqua;
+         }
+         50%{
+            left: 500px;
+            top: 500px;
+            background-color: brown;
+         }
+         75%{
+            top: 500px;
+            left: 0;
+            background-color: blueviolet;
+         }
+}

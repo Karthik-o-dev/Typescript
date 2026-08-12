@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            height: 100vh;
+            gap: 5px;
+        }
+
+        .child1{
+            background-color: aqua;
+            grid-column: 1/4;
+
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            gap: 5px;
+        }
+
+        .child11{
+            background-color: blueviolet;
+            grid-column: 1;
+        }
+
+        .child12{
+            background-color: rgb(143, 18, 51);
+            grid-column: 2;
+        }
+
+        .child2{
+            background-color: aquamarine;
+            grid-column: 1;
+            grid-row: 2;
+        }
+        .child3{
+            background-color: rgb(23, 91, 68);
+            grid-column: 2;
+            grid-row: 2;
+        }
+        .child4{
+            background-color: rgb(178, 208, 198);
+            grid-column: 3;
+            grid-row: 2;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child1">
+            <div class="child11"></div>
+            <div class="child12"></div>
+        </div>
+        <div class="child2"></div>
+        <div class="child3"></div>
+        <div class="child4"></div>
+    </div>
+</body>
+</html>
